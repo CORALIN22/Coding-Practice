@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 50px;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+header {
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+.nav {
+  padding: 2px;
+  flex-grow: 1;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  /* align-items: center;
+  gap: 30px; */
+  gap: 1em;
+  margin-left: 1em;
+}

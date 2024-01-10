@@ -1,21 +1,20 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-html {
-  font-size: 50px;
-}
+/* body {
+  height: 100vh;
+  max-width: 800px;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
 
-body {
-  font-family: "Courier New", Courier, monospace;
-  line-height: 1;
-  font-weight: 400;
-  color: #555;
-}
-
-header {
+/* header {
   display: flex;
   padding: 1em;
   justify-content: space-between;
@@ -31,6 +30,33 @@ header {
   display: flex;
   /* align-items: center;
   gap: 30px; */
-  gap: 1em;
+/* gap: 1em;
   margin-left: 1em;
+ } */
+
+/* margins */
+
+/* .quotes{
+  max-width: 200px;
+  min-width: 100;
+ } */
+
+/* Overflow */
+
+.container {
+  background-color: aqua;
+  border: 3px solid red;
+  overflow: hidden;
 }
+/* 
+div.icons {
+  float: left;
+}
+div.icons img {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  ma
+}
+
+ */

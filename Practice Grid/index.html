@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grid {
+        display: grid;
+        border: 2px blue solid;
+        height: 600px;
+        width: 1000px;
+        grid-template-columns: 200px 250px;
+        gap: 20px;
+        row-gap: 30px;
+      }
+
+      .box {
+        background-color: beige;
+        color: black;
+        border-radius: 5px;
+        border: 2px dodgerblue solid;
+        height: 100%; /* Ensure content can grow within the grid item */
+      }
+
+      .a {
+        grid-column: 1 / -1;
+      }
+      .c {
+        grid-column-start: 2;
+        grid-row: 2 / 5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="box a">Grid 1</div>
+      <div class="box b">Grid 2</div>
+      <div class="box c">Grid 3</div>
+      <div class="box d">Grid 4</div>
+      <div class="box e">Grid 5</div>
+    </div>
+  </body>
+</html>
